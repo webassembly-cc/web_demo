@@ -1,0 +1,14 @@
+[package]
+name = "web_demo"
+version = "0.1.0"
+authors = ["Joshua <gnu.crazier@gmail.com>"]
+
+[dependencies.emscripten]
+git = "https://github.com/lucklove/emscripten.git"
+
+[dependencies.sdl2]
+version = "0.25.0"
+
+[dependencies]
+libc = "0.2.16"
+rand = "0.3"
